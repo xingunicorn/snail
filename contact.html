@@ -1,0 +1,104 @@
+<!DOCTYPE html> <!--This is an html comment; In fact, this line tells the browser what type of doc it is -->
+<!-- A container tag has an opening <p> tag, and a closing </p> tag (this is a paragraph)
+	A non container tag <img src="mypic.jpg">
+	<img src="./"
+	-->
+<html>
+<head> <!-- this is meta data, we can change our style to change the whole page -->
+<style>  
+* {
+    box-sizing: border-box; 
+}
+body {
+    font-family: Arial;
+    padding: 10px;
+    background: #b1c7ee;
+}
+/* Header/Blog Title */
+.header {
+    padding: 30px;
+    text-align: center;
+    background: #b1d1ec;
+}
+
+.header h1 {
+    font-size: 50px;
+    /*style:"color:#293248"*/
+    text-shadow: 2px 2px #69656f;
+}
+/* Style the top navigation bar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+}
+/* Style the topnav links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+/* Change color on hover */
+.topnav a:hover {
+    background-color: #ddd;
+    color: #ace9e7;
+}
+/* section in middle */
+.card {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+}
+.center {
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Footer */
+.footer {
+    padding: 20px;
+    text-align: center;
+    background: #4da6ff;
+    margin-top: 20px;
+}
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+    .topnav a {
+        float: none;
+        width: 100%;
+    }
+}
+</style>
+</head> <!-- Closing -->
+	<body> <!-- THIS IS THE BODY -->
+	
+	<div class="header">
+	  <h1>Snails Home</h1>
+	  <p>Hey I'm Sally the Snail!</p>
+	</div>
+	
+	<div class="topnav">
+	  <a href="#">Facts</a>
+	  <a href="#">Stories</a>
+	  <a href="#">My Friends</a>
+	  <a href="#" style="float:right">Contact Me</a>
+	</div>
+  <div class="center">
+	/* Style the list inside the menu */
+
+    <ul>
+      <li><a href="http://www.sciencekids.co.nz/sciencefacts/animals/snail.html">Fun Snail Facts</a></li>
+      <li><a href="https://www.pestwiki.com/snails/">Surprising Snail Facts</a></li>
+      <li><a href="https://www.ranker.com/list/cool-snail-facts/rachel-green">Cool Snail Facts</a></li>
+    </ul>
+
+	<div class="footer">
+	  <h2>Follow my adventurous life.</h2>
+	</div>
+	
+	</body>
+</html>
